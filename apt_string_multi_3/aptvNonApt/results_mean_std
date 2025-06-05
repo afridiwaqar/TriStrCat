@@ -1,0 +1,91 @@
+
+Model: Logistic Regression
+Accuracy (Mean ± Std): 0.9242 ± 0.0104
+Precision (Mean ± Std): 0.9192 ± 0.0074
+Recall (Mean ± Std): 0.9295 ± 0.0159
+F1 Score (Mean ± Std): 0.9246 ± 0.0107
+Confusion Matrix:
+[[364  37]
+ [ 24 377]]
+
+Model: Random Forest
+Accuracy (Mean ± Std): 0.9370 ± 0.0058
+Precision (Mean ± Std): 0.9208 ± 0.0063
+Recall (Mean ± Std): 0.9582 ± 0.0058
+F1 Score (Mean ± Std): 0.9380 ± 0.0074
+Confusion Matrix:
+[[364  37]
+ [ 12 389]]
+
+Model: Gradient Boosting
+Accuracy (Mean ± Std): 0.9448 ± 0.0106
+Precision (Mean ± Std): 0.9413 ± 0.0111
+Recall (Mean ± Std): 0.9483 ± 0.0119
+F1 Score (Mean ± Std): 0.9441 ± 0.0100
+Confusion Matrix:
+[[374  27]
+ [ 18 383]]
+
+Model: k-NN
+Accuracy (Mean ± Std): 0.9152 ± 0.0077
+Precision (Mean ± Std): 0.9128 ± 0.0094
+Recall (Mean ± Std): 0.9183 ± 0.0156
+F1 Score (Mean ± Std): 0.9154 ± 0.0081
+Confusion Matrix:
+[[375  26]
+ [ 33 368]]
+
+Model: Gaussian Naive Bayes
+Accuracy (Mean ± Std): 0.8971 ± 0.0083
+Precision (Mean ± Std): 0.9477 ± 0.0171
+Recall (Mean ± Std): 0.8410 ± 0.0076
+F1 Score (Mean ± Std): 0.8911 ± 0.0081
+Confusion Matrix:
+[[379  22]
+ [ 69 332]]
+
+Model: SVC
+Accuracy (Mean ± Std): 0.9277 ± 0.0089
+Precision (Mean ± Std): 0.9240 ± 0.0014
+Recall (Mean ± Std): 0.9320 ± 0.0177
+F1 Score (Mean ± Std): 0.9279 ± 0.0094
+Confusion Matrix:
+[[366  35]
+ [ 23 378]]
+
+Model: AdaBoost
+Accuracy (Mean ± Std): 0.9314 ± 0.0049
+Precision (Mean ± Std): 0.9246 ± 0.0066
+Recall (Mean ± Std): 0.9395 ± 0.0038
+F1 Score (Mean ± Std): 0.9320 ± 0.0047
+Confusion Matrix:
+[[366  35]
+ [ 16 385]]
+
+Model: Linear Discriminant Analysis
+Accuracy (Mean ± Std): 0.7347 ± 0.0412
+Precision (Mean ± Std): 0.7268 ± 0.0262
+Recall (Mean ± Std): 0.7487 ± 0.0718
+F1 Score (Mean ± Std): 0.7369 ± 0.0481
+Confusion Matrix:
+[[295 106]
+ [115 286]]
+
+Model: Quadratic Discriminant Analysis
+Accuracy (Mean ± Std): 0.8974 ± 0.0034
+Precision (Mean ± Std): 0.8602 ± 0.0089
+Recall (Mean ± Std): 0.9495 ± 0.0146
+F1 Score (Mean ± Std): 0.9025 ± 0.0036
+Confusion Matrix:
+[[361  40]
+ [ 15 386]]
+
+Model: Multinomial Naive Bayes
+Accuracy (Mean ± Std): 0.8819 ± 0.0084
+Precision (Mean ± Std): 0.9245 ± 0.0063
+Recall (Mean ± Std): 0.8317 ± 0.0167
+F1 Score (Mean ± Std): 0.8755 ± 0.0100
+Confusion Matrix:
+[[366  35]
+ [ 66 335]]
+

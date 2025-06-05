@@ -1,0 +1,73 @@
+python3 apt_strings_3_2.py 
+2024-09-22 21:37:43.280572: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-22 21:37:43.310717: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-09-22 21:37:43.311015: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-22 21:37:43.807974: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Loading dataset...
+Performing TF-IDF vectorization...
+Calculating entropy...
+Performing feature selection...
+apt_strings_3_2.py:116: DeprecationWarning: KerasClassifier is deprecated, use Sci-Keras (https://github.com/adriangb/scikeras) instead. See https://www.adriangb.com/scikeras/stable/migration.html for help migrating.
+  'Neural Network': (KerasClassifier(build_fn=create_model, epochs=30, batch_size=64, verbose=0), {
+Training models...
+Training Gaussian Naive Bayes...
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/model_selection/_search.py:305: UserWarning: The total space of parameters 1 is smaller than n_iter=10. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+Training SVC...
+Training Gradient Boosting...
+Training Logistic Regression...
+Training k-NN...
+Training Random Forest...
+Training AdaBoost...
+2024-09-22 21:38:20.477536: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Training Neural Network...
+Training Linear Discriminant Analysis...
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/model_selection/_search.py:305: UserWarning: The total space of parameters 1 is smaller than n_iter=10. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+51/51 [==============================] - 0s 965us/step
+51/51 [==============================] - 0s 1ms/step
+Training Quadratic Discriminant Analysis...
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/model_selection/_search.py:305: UserWarning: The total space of parameters 1 is smaller than n_iter=10. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+51/51 [==============================] - 0s 2ms/step
+38/38 [==============================] - 0s 2ms/step
+38/38 [==============================] - 0s 2ms/step
+Training Multinomial Naive Bayes...
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+/home/waqar/.local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+                          Model Accuracy (Mean ± Std) Precision (Mean ± Std) Recall (Mean ± Std) F1 Score (Mean ± Std)
+            Logistic Regression       0.9036 ± 0.0079        0.9274 ± 0.0079     0.9275 ± 0.0079       0.9274 ± 0.0079
+                  Random Forest       0.9141 ± 0.0068        0.9278 ± 0.0068     0.9267 ± 0.0068       0.9258 ± 0.0068
+              Gradient Boosting       0.9320 ± 0.0046        0.9433 ± 0.0046     0.9432 ± 0.0046       0.9428 ± 0.0046
+                           k-NN       0.8838 ± 0.0082        0.9102 ± 0.0082     0.9102 ± 0.0082       0.9102 ± 0.0082
+           Gaussian Naive Bayes       0.8605 ± 0.0091        0.8712 ± 0.0091     0.8657 ± 0.0091       0.8648 ± 0.0091
+                 Neural Network       0.9203 ± 0.0031        0.9465 ± 0.0031     0.9465 ± 0.0031       0.9464 ± 0.0031
+                            SVC       0.9106 ± 0.0074        0.9427 ± 0.0074     0.9423 ± 0.0074       0.9423 ± 0.0074
+                       AdaBoost       0.8296 ± 0.0096        0.8511 ± 0.0096     0.8493 ± 0.0096       0.8461 ± 0.0096
+   Linear Discriminant Analysis       0.6188 ± 0.0038        0.6555 ± 0.0038     0.6507 ± 0.0038       0.6497 ± 0.0038
+Quadratic Discriminant Analysis       0.8395 ± 0.0008        0.8939 ± 0.0008     0.8847 ± 0.0008       0.8811 ± 0.0008
+        Multinomial Naive Bayes       0.8370 ± 0.0082        0.8428 ± 0.0082     0.8402 ± 0.0082       0.8370 ± 0.0082
+Generating confusion matrices...
+
+Confusion matrices have been saved as PNG files.
+Generating individual ROC curves...
+
+Individual ROC curves have been saved as PNG files.
+
+Best Model: Neural Network
+Accuracy: 0.9465
+Script completed successfully!
+

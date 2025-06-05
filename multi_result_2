@@ -1,0 +1,96 @@
+Logistic Regression - Accuracy: 0.8925 ± 0.0175
+Logistic Regression - Precision: 0.8930 ± 0.0173
+Logistic Regression - Recall: 0.8925 ± 0.0175
+Logistic Regression - F1-Score: 0.8920 ± 0.0179
+Logistic Regression - ROC AUC: 0.9763 ± 0.0065
+
+
+Random Forest - Accuracy: 0.9332 ± 0.0123
+Random Forest - Precision: 0.9332 ± 0.0124
+Random Forest - Recall: 0.9332 ± 0.0123
+Random Forest - F1-Score: 0.9330 ± 0.0124
+Random Forest - ROC AUC: 0.9899 ± 0.0031
+
+
+Gradient Boosting - Accuracy: 0.9298 ± 0.0117
+Gradient Boosting - Precision: 0.9298 ± 0.0117
+Gradient Boosting - Recall: 0.9298 ± 0.0117
+Gradient Boosting - F1-Score: 0.9295 ± 0.0119
+Gradient Boosting - ROC AUC: 0.9870 ± 0.0050
+
+
+k-NN - Accuracy: 0.8937 ± 0.0123
+k-NN - Precision: 0.8954 ± 0.0119
+k-NN - Recall: 0.8937 ± 0.0123
+k-NN - F1-Score: 0.8940 ± 0.0123
+k-NN - ROC AUC: 0.9676 ± 0.0078
+
+
+Gaussian Naive Bayes - Accuracy: 0.8426 ± 0.0143
+Gaussian Naive Bayes - Precision: 0.8423 ± 0.0144
+Gaussian Naive Bayes - Recall: 0.8426 ± 0.0143
+Gaussian Naive Bayes - F1-Score: 0.8412 ± 0.0145
+Gaussian Naive Bayes - ROC AUC: 0.9029 ± 0.0101
+
+
+Neural Network - Accuracy: 0.9275 ± 0.0103
+Neural Network - Precision: 0.9288 ± 0.0098
+Neural Network - Recall: 0.9275 ± 0.0103
+Neural Network - F1-Score: 0.9276 ± 0.0102
+Neural Network - ROC AUC: 0.9882 ± 0.0026
+
+
+SVC (Linear Kernel) - Accuracy: 0.9051 ± 0.0155
+SVC (Linear Kernel) - Precision: 0.9056 ± 0.0155
+SVC (Linear Kernel) - Recall: 0.9051 ± 0.0155
+SVC (Linear Kernel) - F1-Score: 0.9048 ± 0.0158
+SVC (Linear Kernel) - ROC AUC: 0.9782 ± 0.0060
+
+
+SVC (RBF Kernel) - Accuracy: 0.8362 ± 0.0149
+SVC (RBF Kernel) - Precision: 0.8378 ± 0.0156
+SVC (RBF Kernel) - Recall: 0.8362 ± 0.0149
+SVC (RBF Kernel) - F1-Score: 0.8328 ± 0.0153
+SVC (RBF Kernel) - ROC AUC: 0.9522 ± 0.0081
+
+
+SVC (Poly Kernel) - Accuracy: 0.8523 ± 0.0158
+SVC (Poly Kernel) - Precision: 0.8551 ± 0.0160
+SVC (Poly Kernel) - Recall: 0.8523 ± 0.0158
+SVC (Poly Kernel) - F1-Score: 0.8496 ± 0.0163
+SVC (Poly Kernel) - ROC AUC: 0.9555 ± 0.0082
+
+
+SVC (Sigmoid Kernel) - Accuracy: 0.4867 ± 0.0262
+SVC (Sigmoid Kernel) - Precision: 0.5641 ± 0.0234
+SVC (Sigmoid Kernel) - Recall: 0.4867 ± 0.0262
+SVC (Sigmoid Kernel) - F1-Score: 0.4875 ± 0.0255
+SVC (Sigmoid Kernel) - ROC AUC: 0.6476 ± 0.0135
+
+
+AdaBoost - Accuracy: 0.8030 ± 0.0174
+AdaBoost - Precision: 0.8019 ± 0.0165
+AdaBoost - Recall: 0.8030 ± 0.0174
+AdaBoost - F1-Score: 0.7993 ± 0.0196
+AdaBoost - ROC AUC: 0.8948 ± 0.0095
+
+
+Linear Discriminant Analysis - Accuracy: 0.6653 ± 0.0228
+Linear Discriminant Analysis - Precision: 0.6741 ± 0.0245
+Linear Discriminant Analysis - Recall: 0.6653 ± 0.0228
+Linear Discriminant Analysis - F1-Score: 0.6659 ± 0.0231
+Linear Discriminant Analysis - ROC AUC: 0.7507 ± 0.0163
+
+
+Quadratic Discriminant Analysis - Accuracy: 0.8617 ± 0.0233
+Quadratic Discriminant Analysis - Precision: 0.8869 ± 0.0139
+Quadratic Discriminant Analysis - Recall: 0.8617 ± 0.0233
+Quadratic Discriminant Analysis - F1-Score: 0.8630 ± 0.0225
+Quadratic Discriminant Analysis - ROC AUC: 0.8958 ± 0.0173
+
+
+Multinomial Naive Bayes - Accuracy: 0.8149 ± 0.0186
+Multinomial Naive Bayes - Precision: 0.8133 ± 0.0197
+Multinomial Naive Bayes - Recall: 0.8149 ± 0.0186
+Multinomial Naive Bayes - F1-Score: 0.8105 ± 0.0193
+Multinomial Naive Bayes - ROC AUC: 0.9244 ± 0.0089

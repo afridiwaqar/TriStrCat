@@ -1,0 +1,108 @@
+python3 lmvB.py 
+Loading dataset...
+Performing TF-IDF vectorization...
+Calculating entropy...
+Performing feature selection...
+Training models...
+Training Logistic Regression...
+Training Random Forest...
+Training Gradient Boosting...
+Training k-NN...
+Training Gaussian Naive Bayes...
+Training SVC...
+Training AdaBoost...
+Training Linear Discriminant Analysis...
+Training Multinomial Naive Bayes...
+
+Model: Logistic Regression
+Accuracy: 0.9619
+Precision: 0.9615
+Recall: 0.9591
+F1 Score: 0.9603
+Confusion Matrix:
+[[407  15]
+ [ 16 375]]
+
+Model: Random Forest
+Accuracy: 0.9619
+Precision: 0.9737
+Recall: 0.9463
+F1 Score: 0.9598
+Confusion Matrix:
+[[412  10]
+ [ 21 370]]
+
+Model: Gradient Boosting
+Accuracy: 0.9582
+Precision: 0.9636
+Recall: 0.9488
+F1 Score: 0.9562
+Confusion Matrix:
+[[408  14]
+ [ 20 371]]
+
+Model: k-NN
+Accuracy: 0.9508
+Precision: 0.9782
+Recall: 0.9182
+F1 Score: 0.9472
+Confusion Matrix:
+[[414   8]
+ [ 32 359]]
+
+Model: Gaussian Naive Bayes
+Accuracy: 0.9090
+Precision: 0.9490
+Recall: 0.8568
+F1 Score: 0.9005
+Confusion Matrix:
+[[404  18]
+ [ 56 335]]
+
+Model: SVC
+Accuracy: 0.9619
+Precision: 0.9592
+Recall: 0.9616
+F1 Score: 0.9604
+Confusion Matrix:
+[[406  16]
+ [ 15 376]]
+
+Model: AdaBoost
+Accuracy: 0.9643
+Precision: 0.9571
+Recall: 0.9693
+F1 Score: 0.9632
+Confusion Matrix:
+[[405  17]
+ [ 12 379]]
+
+Model: Linear Discriminant Analysis
+Accuracy: 0.8081
+Precision: 0.7916
+Recall: 0.8159
+F1 Score: 0.8035
+Confusion Matrix:
+[[338  84]
+ [ 72 319]]
+
+Model: Quadratic Discriminant Analysis
+Accuracy: 0.9434
+Precision: 0.9457
+Recall: 0.9361
+F1 Score: 0.9409
+Confusion Matrix:
+[[401  21]
+ [ 25 366]]
+
+Model: Multinomial Naive Bayes
+Accuracy: 0.9028
+Precision: 0.9699
+Recall: 0.8235
+F1 Score: 0.8907
+Confusion Matrix:
+[[412  10]
+ [ 69 322]]
+
+Script completed successfully!
+
